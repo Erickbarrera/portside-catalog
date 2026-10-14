@@ -1,10 +1,11 @@
 # portside-catalog
 
-The published game-port catalog for [Portside](https://erickbarrera.github.io/portside-catalog/v1/index.json),
+The published website and game-port catalog for [Portside](https://erickbarrera.github.io/portside-catalog/),
 a launcher for community game ports (decompilations, recompilations, source ports and engine remakes).
 
-This repository holds no code. The `gh-pages` branch carries the generated JSON files, served by
-GitHub Pages at `https://erickbarrera.github.io/portside-catalog/`. A scheduled job rebuilds them every
+This repository holds no source code. The `gh-pages` branch carries the built website (at the root)
+and the generated catalog JSON (under `v1/`), served by GitHub Pages at
+`https://erickbarrera.github.io/portside-catalog/`. A scheduled job rebuilds them every
 hour from [awesome-decomp-games](https://github.com/SubmitGame/awesome-decomp-games), Portside's port
 manifests and each port's GitHub releases, and replaces the branch with a single commit.
 
